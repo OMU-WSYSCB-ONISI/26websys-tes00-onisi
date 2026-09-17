@@ -1,0 +1,37 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Go: 依存関係を整理(mod tidy)",
+      "type": "shell",
+      "command": "go",
+      "args": [
+        "mod",
+        "tidy"
+      ],
+      "group": "none",
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+      }
+    },
+    {
+      "label": "Go: 全体をフォーマット(fmt)",
+      "type": "shell",
+      "command": "go",
+      "args": [
+        "fmt",
+        "./..."
+      ],
+      "group": "none",
+      "presentation": {
+        "echo": true,
+        "reveal": "silent",
+        "focus": false,
+        "panel": "shared"
+      }
+    }
+  ]
+}
