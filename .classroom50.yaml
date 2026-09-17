@@ -1,0 +1,12 @@
+schema: "classroom50/repo-config/v1"
+classroom: "26websys"
+assignment: "tes00"
+owner:
+  username: "onisi"
+  id: 14845181
+  accepted_at: "2026-09-17T09:45:22Z"
+source:
+  owner: "onisi"
+  owner_id: 14845181
+  repo: "golang-26"
+  branch: "main"
